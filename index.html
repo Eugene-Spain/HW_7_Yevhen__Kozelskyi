@@ -6,15 +6,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normilize.css">
     <link rel="stylesheet" href="./styles/style.css">
+    
     <title>Bella</title>
 </head>
 <body>
     <header class="header">
         <div class="wrapper header__wrapper">
             <a href="/" class="header__home-link">
-                <img src="/assets/img/logo.png" alt="Bella logotype">
+                <img src="assets/img/logo.png" alt="Bella logotype">
             </a>
             <nav class="header__navigation">
                 <ul class="header__list">
@@ -37,27 +39,27 @@
     <main>
         <!-- hero section -->
         <section class="hero">
-            <div class="wrapper">
-                <p>Food app</p>
-                <h1>Why stay hungry when you can order form Bella Onojie Playstore</button></h1>
-                <p>Download the bella onoje’s food app now on</p>
-                <button>Playstore</button>
-                <button>App store</button>
+            <div class="hero__wrapper">
+                <p class="hero__paragraph-1">Food app</p>
+                <h1><span class="hero__span">Why stay hungry when</span> you can order form Bella Onojie</h1> 
+                <p class="hero__paragraph-2">Download the bella onoje’s food app now on</p>
+                <button class="hero__button-1"><p>Playstore</p></button>
+                <button class="hero__button-2"><p>App store</p></button>
             </div>
         </section>
         <!-- mobiles section -->
-        <section>
-            <img src="" alt="red mobile">
-            <img src="" alt="white mobile">
+        <section class="mobiles">
+            <img class="mobiles__red-mobile" src="assets/img/red_mobile.png" alt="red mobile">
+            <img class="mobiles__white-mobile" src="assets/img/white_mobile.png" alt="white mobile">
             <hr>
         </section>
         <!-- steps section -->
-        <section>
+        <section class="steps">
             <h2>How the app works</h2>
             <ul>
                 <li>
-                    <figure>
-                        <img src="" alt="mobile with login">
+                    <figure class="steps__create-fig">
+                        <img src="assets/img/Create_mobile.png" alt="mobile with login">
                         <figcaption>
                             <h3>Create an account</h3>
                             <p>Create/login to an existing account to get started</p>
@@ -66,18 +68,18 @@
                     </figure>
                 </li>
                 <li>
-                    <figure>
-                        <img src="" alt="mobile with food screen">
+                    <figure class="steps__explore-fig">
                         <figcaption>
                             <h3>Explore varieties</h3>
                             <p>Shop for your favorites meal as e dey hot.</p>
                             <p>Shop for your favorite meals or drinks and enjoy while doing it</p>
                         </figcaption>
+                        <img src="assets/img/Explore_mobile.png" alt="mobile with food screen">                        
                     </figure>
                 </li>
                 <li>
-                    <figure>
-                        <img src="" alt="mobile with payment screen">
+                    <figure class="steps__checkout-fig">
+                        <img src="assets/img/Checkout_mobile.png" alt="mobile with payment screen">
                         <figcaption>
                             <h3>Checkout</h3>
                             <p>When you done check out and get it delivered.</p>
@@ -88,20 +90,24 @@
             </ul>    
         </section>
         <!-- download section -->
-        <section>
-            <h2>Download the app now.</h2>
+        <section class="download">
+            <div class="download__wrapper">
+            <h2 class="download__h2">Download the app now.</h2>
             <p>Available on your favorite store. Start your premium experience now</p>
-            <button>Playstore</button>
-            <button>App store</button>
+            <button class="download__button-1"><p>Playstore</p></button>
+            <button class="download__button-2"><p>App store</p></button>
+            </div>
         </section>
     </main>
-    <footer>
-        <a href="">
-            <img src="" alt="">
+    <footer class="footer">
+        <a href="/">
+            <img src="assets/img/logo.png" alt="logo">
         </a>
-        <img src="" alt="twitter">
-        <img src="" alt="facebook">
-        <img src="" alt="instagram">
+        <div class="footer__wrapper">
+        <img src="assets/img/twitter.png" alt="twitter">
+        <img src="assets/img/facebook.png" alt="facebook">
+        <img src="assets/img/instagram.png" alt="instagram">
+        </div>
         <p>Copywright 2020 Bella Onojie.com</p>
     </footer>
 </body>
