@@ -7,6 +7,10 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+figure{
+    margin: 0;
+}
+
 h1 {
     color: #FFF;
     text-align: center;
@@ -18,9 +22,32 @@ h1 {
     margin-top: -17px;
 }
 
+h2 {
+    font-family: Poppins;
+    font-size: 36px;
+    /* в фигме 44 px, но высота 36px самого элемента поэтому скорее всего лаг фигмы, да и визуально 36 больше подходит*/
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    opacity: 0.8;
+    margin: 0;
+    padding-top: 70px;
+}
+
+h3 {
+    color: #FA4A0C;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    margin:0;
+}
+
 ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 a {
@@ -76,7 +103,7 @@ a {
     padding: 72px 0 146px 0;
 }
 
-.hero__paragraph-1{
+.hero__paragraph-1 {
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -107,7 +134,7 @@ a {
 .hero__button-1 {
     border-radius: 30px;
     background: #FA4A0C;
-    margin-left: 100px;
+    margin-left: 110px;
 
 }
 
@@ -118,12 +145,167 @@ a {
     margin-left: 34px;
 }
 
-.hero button h3 {
+.hero button p {
     line-height: 0;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
 }
-.hero__span{
+
+.hero__span {
     display: block;
 }
 
 /* end hero block */
 
+/* mobiles block */
+.mobiles {
+    width: 884px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.mobiles hr {
+    margin-top: -850px;
+}
+
+.mobiles__red-mobile {
+    position: relative;
+    top: -285px;
+    left: 65px;
+}
+
+.mobiles__white-mobile {
+    position: relative;
+    top: -950px;
+    left: 430px;
+}
+
+/* end mobiles block */
+
+/* steps block */
+.steps {
+    text-align: center;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.steps__create-fig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-top: -30px;
+}
+
+.steps__explore-fig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -250px 0 0 265px;
+}
+
+.steps__checkout-fig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.steps p{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    max-width: 568px;
+    margin: 0;
+    padding: 17px 0 27px 0;
+}
+.steps p + p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    max-width: 515px;
+    padding: 0;
+}
+.steps figcaption{
+    text-align: left;
+}
+/* end steps block */
+
+/* download block */
+
+.download{
+    background: url("../assets/img/download.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    color: white;
+    text-align: center;
+}
+
+.download__wrapper{
+    margin: 0 auto;
+    min-width: 840px;
+    padding-bottom: 133px;
+
+}
+
+.download__h2{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    padding-top: 145px;
+    opacity: 1;
+}
+
+.download p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+.download__button-1{
+    border-radius: 30px;
+    background: #FA4A0C;
+    padding: 18px 31px;
+}
+
+.download__button-2{
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    margin-left: 34px;
+    padding: 16px 45px;
+}
+
+.download button p {
+    line-height: 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #FFF;
+    
+}
+
+/* end download block */
+
+/* footer block */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0 15px 71px ;
+    margin: 37px 115px;
+}
+.footer__wrapper{
+    display: flex;
+    justify-self: center;
+    gap: 24px;
+}
